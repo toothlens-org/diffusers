@@ -1,4 +1,4 @@
-# Copyright 2024 The Hunyuan Team and The HuggingFace Team. All rights reserved.
+# Copyright 2025 The Hunyuan Team and The HuggingFace Team. All rights reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,7 +18,6 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import torch.utils.checkpoint
 
 from ...configuration_utils import ConfigMixin, register_to_config
 from ...utils import logging

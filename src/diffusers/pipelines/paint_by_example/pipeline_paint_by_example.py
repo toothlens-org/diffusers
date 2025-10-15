@@ -1,4 +1,4 @@
-# Copyright 2024 The HuggingFace Team. All rights reserved.
+# Copyright 2025 The HuggingFace Team. All rights reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -158,11 +158,7 @@ def prepare_mask_and_masked_image(image, mask):
 class PaintByExamplePipeline(DeprecatedPipelineMixin, DiffusionPipeline, StableDiffusionMixin):
     _last_supported_version = "0.33.1"
     r"""
-    <Tip warning={true}>
-
-    🧪 This is an experimental feature!
-
-    </Tip>
+    > [!WARNING] > 🧪 This is an experimental feature!
 
     Pipeline for image-guided image inpainting using Stable Diffusion.
 

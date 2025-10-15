@@ -72,13 +72,8 @@ jobs:
         image-name:
           - diffusers-pytorch-cpu
           - diffusers-pytorch-cuda
-          - diffusers-pytorch-cuda
           - diffusers-pytorch-xformers-cuda
           - diffusers-pytorch-minimum-cuda
-          - diffusers-flax-cpu
-          - diffusers-flax-tpu
-          - diffusers-onnxruntime-cpu
-          - diffusers-onnxruntime-cuda
           - diffusers-doc-builder
 
     steps:
